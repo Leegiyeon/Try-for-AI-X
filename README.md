@@ -1,3 +1,9 @@
 # AI
 
-> 1. 문장에 대한 감정 분석 모델(test)
+> 1. 문장에 대한 감정 분석 모델(test) <br>
+
+> 2. 주식 데이터 수집, 분석, 예측 모델(stock_predict)
+  > - 1. data_collection.py를 실행하여 데이터 수집
+  > - 2. model_training.py를 실행하여 예측 모델 학습(LSTM)
+  > - 3. app.py를 실행하여 학습된 모델 로드 
+  > - 4. client.py를 실행하여 해당 요청으로 실제 데이터와 비교 분석
